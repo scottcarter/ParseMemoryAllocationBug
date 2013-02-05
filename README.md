@@ -12,6 +12,11 @@ Overview:
 This project demonstrates that Parse is not releasing all allocated memory after saveAllInBackground.
 
 
+Setup:
+
+In order to run this project, you will need to edit ParseMemoryAllocationBugAppDelegate.m and enter your own credentials
+for clientKey and setApplicationId.
+
 Details:
 There are 2 buttons to cause the app to write a set of records to Parse.  One button executes a single save and the 
 other button recursively executes multiple saves.  For each save a record with single note field of 3,600 bytes is 
