@@ -2,7 +2,9 @@ ParseMemoryAllocationBug
 ========================
 
 Environment:
+
 Parse SDK 1.1.29
+
 XCode Version 4.6 (4H127)
 
 
@@ -17,7 +19,9 @@ used.
 
 Two defines in ParseMemoryAllocationBugViewController.m control how many records are written per save (affects both
 buttons) and how many saves occur (for the multi save button):
+
 NUM_RECORDS_PER_SAVE
+
 NUM_LOOPS_FOR_MULTI_SAVE
 
 Run the app with Instruments (Leaks, Allocations).
