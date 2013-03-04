@@ -18,6 +18,7 @@
     
     // Override point for customization after application launch.
     
+    
     [Parse setApplicationId:@"Insert your application id"
                   clientKey:@"Insert your client key"];
     
