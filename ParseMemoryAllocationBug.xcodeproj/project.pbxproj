@@ -31,7 +31,6 @@
 		A767BC1016C18B9B00DF49D1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A767BC0F16C18B9B00DF49D1 /* Social.framework */; };
 		A767BC1216C18BA500DF49D1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A767BC1116C18BA500DF49D1 /* StoreKit.framework */; };
 		A767BC1416C18BAF00DF49D1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A767BC1316C18BAF00DF49D1 /* SystemConfiguration.framework */; };
-		A7AAD06816E5347C0008B14D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AAD06716E5347C0008B14D /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,7 +63,6 @@
 		A767BC0F16C18B9B00DF49D1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		A767BC1116C18BA500DF49D1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		A767BC1316C18BAF00DF49D1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		A7AAD06716E5347C0008B14D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +86,6 @@
 				A767BBFC16C18B3A00DF49D1 /* AudioToolbox.framework in Frameworks */,
 				A767BBD716C186A700DF49D1 /* UIKit.framework in Frameworks */,
 				A767BBD916C186A700DF49D1 /* Foundation.framework in Frameworks */,
-				A7AAD06816E5347C0008B14D /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +112,6 @@
 		A767BBD516C186A700DF49D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A7AAD06716E5347C0008B14D /* Parse.framework */,
 				A767BC1116C18BA500DF49D1 /* StoreKit.framework */,
 				A767BC0F16C18B9B00DF49D1 /* Social.framework */,
 				A767BC0D16C18B9500DF49D1 /* Security.framework */,

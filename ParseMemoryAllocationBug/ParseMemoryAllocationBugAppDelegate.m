@@ -19,9 +19,9 @@
     // Override point for customization after application launch.
     
     
-    [Parse setApplicationId:@"Insert your application id"
-                  clientKey:@"Insert your client key"];
-    
+    [Parse setApplicationId:@"zx5ulh2DSskSy75ebOIzz8OToJLSwC7hnopDyrpQ"
+                  clientKey:@"a5cmHLVXzhrBGatUCruteiLb9ed1YHMfqIFwolKN"];
+        
     
     return YES;
 }
